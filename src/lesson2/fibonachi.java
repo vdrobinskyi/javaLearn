@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class fibonachi {
     public static void main(String args[]) {
-        System.out.print(calculatefibonachi(56));
+        System.out.print(calculatefibonachi(6));
     }
 
     private static int calculatefibonachi(int n) {
