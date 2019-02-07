@@ -3,6 +3,8 @@ package thread;
 import java.util.Random;
 import java.util.function.Consumer;
 
+import static thread.Main.stringBuilder;
+
 class MyThread implements Runnable{
 
     Node root;
@@ -10,7 +12,6 @@ class MyThread implements Runnable{
     MyThread(Node root){
         this.root = root;
     }
-    StringBuilder stringBuilder = new StringBuilder();
     @Override
     public void run() {
         Consumer consumer = new Consumer() {
