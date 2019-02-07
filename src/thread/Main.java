@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Main {
-    static StringBuilder stringBuilder;
+    static StringBuilder stringBuilder = new StringBuilder();
     public static void main(String[] args) {
         Tree tree = new Tree();
 
@@ -51,7 +51,6 @@ public class Main {
         catch(IOException ex){
             ex.printStackTrace();
         }
-
 
 
     }
